@@ -19,3 +19,5 @@ git checkout -- cambiar para otra rama
 
 -------------- DOCUMENTACION GIT -----------------
 https://training.github.com/downloads/es_ES/github-git-cheat-sheet.pdf
+
+https://git-scm.com/book/es/v2/Ramificaciones-en-Git-Procedimientos-B%C3%A1sicos-para-Ramificar-y-Fusionar
