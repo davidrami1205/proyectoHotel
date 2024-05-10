@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Calibri;
+    color: black;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+h1 {
+    font-size: 2.3em;
+    line-height: 1.3em;
+    color: black;
+    margin: 15px 0;
+    text-align: center;
+    font-weight: 300;
+}
+
+/*
+Estilos para cabecera
+*/
+#mainHeader{
+    background: #333;
+    background-color: cadetblue;
+    color: black;
+    height: 70px;
+    /*para fijar la cabecera*/
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+}
+
+    #MainHeader a {
+        color:black;
+    }
+
+/*Logo*/    
+#logoHeader {
+    float: left;
+    padding: 0 0 0 20px;
+    position: relative;
+}
+    #logoHeader a{
+        text-decoration: none;
+    }
+
+        #logoHeader:hover {
+            color: #0b76a6;
+        }
+
+/*Navegacion*/
+
+nav {
+    float: right;
+}   
+
+    nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        padding-right: 20px;
+    }
+        nav ul li {
+            display: inline-block;
+            line-height: 80px;
+        }
+
+            nav ul li a {
+                display: block;
+                padding: 0 10px;
+                text-decoration: none;
+                color: black;
+            }
+                
+                nav ul li a:hover {
+                    background: #0b76a6;
+                }
